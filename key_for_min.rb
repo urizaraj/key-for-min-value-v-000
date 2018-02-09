@@ -2,8 +2,8 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(dict)
-  min_value
-  min_key
+  min_value = nil
+  min_key = nil
 
   dict.each do |key, value|
     if min_value
